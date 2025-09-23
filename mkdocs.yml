@@ -1,47 +1,132 @@
+# Site Configuration
 site_name: Data Science & AI Portfolio
 site_author: Katarzyna Dudzik
 site_description: >-
   Welcome to my Data Science and AI portfolio - a curated collection of projects
   showcasing machine learning, data analysis, and artificial intelligence solutions.
+  
+site_url: https://cersei568.github.io/ds_ai_portfolio
 
-Repository:
-repo_name: cersei568/portfolio
-repo_url: https://github.com/cersei568/portfolio
+# Repository
+repo_name: cersei568/ds_ai_portfolio
+repo_url: https://github.com/cersei568/ds_ai_portfolio
+edit_uri: edit/main/docs/
 
 # Copyright
-copyright: Copyright &copy; 2025 Katarzyna Dudzik
+copyright: Copyright &copy; 2025 Katarzyna Dudzik. All rights reserved.
 
 # Configuration
 theme:
   name: material
+  # custom_dir: overrides  # Removed this line
+  
+  # Language and fonts
+  language: en
   
   # Color palette with elegant gradients
   palette:
-    # Light mode
+    # Light mode - Elegant professional
     - scheme: default
       primary: black
       accent: cyan
       toggle:
-        icon: material/toggle-switch
+        icon: material/brightness-7
         name: Switch to dark mode
     
-    # Dark mode
+    # Dark mode - Modern tech
     - scheme: slate
       primary: cyan
       accent: blue
       toggle:
-        icon: material/toggle-switch-off-outline
+        icon: material/brightness-4
         name: Switch to light mode
   
-nav:
-- Homepage: index.md
-- Current project:
-  - "Ebook Writer": ebook_writer/index.md
+  # Typography
+  font:
+    text: Roboto
+    code: Roboto Mono
+    
+  # Logo and favicon (optional - comment out if files don't exist)
+  # logo: assets/logo.png
+  # favicon: assets/favicon.png
   
-- Previous projects:
-  - "AI Explorer": ai_explorer/index.md
-  - "Health Risk Predictor": personalized_health_risk_predictor/index.md
-  - "Iris": iris/index.md
-  - "Titanic": titanic/index.md
-  - "Insurance Charge Predictor": insurance_charge_predictor/index.md
+  # Features
+  features:
+    # Navigation
+    - navigation.instant
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    
+    # Table of contents
+    - toc.follow
+    
+    # Search
+    - search.suggest
+    - search.highlight
+    
+    # Content
+    - content.code.copy
+    - content.code.annotate
+    - content.tabs.link
 
+# Simplified Navigation
+nav:
+  - Home: 
+    - Welcome: index.md
+  
+  - Featured Projects:
+    - "🚀 EBook AI Writer": ebook_writer/index.md
+    - "🤖 AI Explorer": ai_explorer/index.md
+    - "🏥 Health Risk Predictor": personalized_health_risk_predictor/index.md
+    - "💰 Insurance Charge Predictor": insurance_charge_predictor/index.md
+  
+  - Classic ML Studies:
+    - "🌸 Iris Classification": iris/index.md
+    - "🚢 Titanic Survival": titanic/index.md
+
+# Simplified Plugins
+plugins:
+  - search
+
+# Basic Markdown Extensions
+markdown_extensions:
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - toc:
+      permalink: true
+  - tables
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+
+# Extra CSS (only if files exist)
+extra_css:
+  - stylesheets/extra.css
+
+# Social links
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/cersei568
+      name: GitHub Profile
+    - icon: fontawesome/brands/linkedin
+      link: https://linkedin.com/in/katarzyna-dudzik
+      name: LinkedIn Profile
+    - icon: fontawesome/solid/envelope
+      link: mailto:your-email@example.com
+      name: Send Email
