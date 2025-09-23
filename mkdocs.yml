@@ -1,0 +1,47 @@
+site_name: Data Science & AI Portfolio
+site_author: Katarzyna Dudzik
+site_description: >-
+  Welcome to my Data Science and AI portfolio - a curated collection of projects
+  showcasing machine learning, data analysis, and artificial intelligence solutions.
+
+Repository:
+repo_name: cersei568/portfolio
+repo_url: https://github.com/cersei568/portfolio
+
+# Copyright
+copyright: Copyright &copy; 2025 Katarzyna Dudzik
+
+# Configuration
+theme:
+  name: material
+  
+  # Color palette with elegant gradients
+  palette:
+    # Light mode
+    - scheme: default
+      primary: black
+      accent: cyan
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to dark mode
+    
+    # Dark mode
+    - scheme: slate
+      primary: cyan
+      accent: blue
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to light mode
+  
+nav:
+- Homepage: index.md
+- Current project:
+  - "Ebook Writer": ebook_writer/index.md
+  
+- Previous projects:
+  - "AI Explorer": ai_explorer/index.md
+  - "Health Risk Predictor": personalized_health_risk_predictor/index.md
+  - "Iris": iris/index.md
+  - "Titanic": titanic/index.md
+  - "Insurance Charge Predictor": insurance_charge_predictor/index.md
+
