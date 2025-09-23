@@ -1,5 +1,8 @@
 # 💰 Insurance Charge Predictor
 
+### Main Interface
+![Main Interface](assets/icp0.png)
+
 Welcome to the **AI-powered Insurance Charge Predictor**, an interactive Streamlit app that estimates your insurance charges based on personal information, lifestyle, and regional factors. The app also provides actionable recommendations and market insights.
 
 ---
@@ -12,9 +15,6 @@ Welcome to the **AI-powered Insurance Charge Predictor**, an interactive Streaml
 - Fallback **demo mode** if PyCaret or SHAP are unavailable.
 
 ## Screenshots
-
-### Main Interface
-![Main Interface](assets/icp0.png)
 
 ### Prediction & Recommendations
 ![Prediction Result](assets/icp1.png)

@@ -1,5 +1,7 @@
 # 🌡️ AI Explorer
 
+![Screenshot: Live Demo](assets/ai_explorer_demo.png)
+
 **AI Explorer** is an interactive web app designed to help **junior data scientists** explore and analyze datasets with ease. It makes **Exploratory Data Analysis (EDA)** simple: upload a CSV (or use the built-in sample data), visualize trends with beautiful charts, discover relationships between variables, and even train a basic AI model to make predictions. All of this comes in a **clean, user-friendly interface**, making it perfect for learning, experimenting, and showcasing your data science skills.
 
 ---
@@ -69,6 +71,6 @@ You can try the app live at:
 
 - **Streamlit Cloud:** [https://cersei568-ai-explorer-app-app-nciumx.streamlit.app/](https://cersei568-ai-explorer-app-app-nciumx.streamlit.app/)
 
-> ![Screenshot: Live Demo](assets/ai_explorer_demo.png)
+
 
 ---

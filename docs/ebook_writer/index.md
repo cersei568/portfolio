@@ -23,7 +23,7 @@ From **generating titles and outlines** to **expanding scenes and creating illus
 
 ---
 
-## Tech Stack
+## ⚙️ Tech Stack
 
 - **Frontend/UI:** Streamlit + Custom CSS  
 - **AI Models:** OpenAI GPT-4 (text) & DALL·E 3 (images)  

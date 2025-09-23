@@ -42,7 +42,7 @@ With a simple, clean interface, this app makes predictive modeling accessible: u
 
 ---
 
-## Tech Stack
+## ⚙️ Tech Stack
 
 - **Frontend / UI:** [Streamlit](https://streamlit.io/)  
 - **Machine Learning:** [scikit-learn](https://scikit-learn.org/stable/)  
