@@ -1,3 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+         <loc>https://cersei568.github.io/ds_ai_portfolio/</loc>
+         <lastmod>2025-09-23</lastmod>
+    </url>
+    <url>
+         <loc>https://cersei568.github.io/ds_ai_portfolio/ai_explorer/</loc>
+         <lastmod>2025-09-23</lastmod>
+    </url>
+    <url>
+         <loc>https://cersei568.github.io/ds_ai_portfolio/ebook_writer/</loc>
+         <lastmod>2025-09-23</lastmod>
+    </url>
+    <url>
+         <loc>https://cersei568.github.io/ds_ai_portfolio/insurance_charge_predictor/</loc>
+         <lastmod>2025-09-23</lastmod>
+    </url>
+    <url>
+         <loc>https://cersei568.github.io/ds_ai_portfolio/iris/</loc>
+         <lastmod>2025-09-23</lastmod>
+    </url>
+    <url>
+         <loc>https://cersei568.github.io/ds_ai_portfolio/personalized_health_risk_predictor/</loc>
+         <lastmod>2025-09-23</lastmod>
+    </url>
+    <url>
+         <loc>https://cersei568.github.io/ds_ai_portfolio/titanic/</loc>
+         <lastmod>2025-09-23</lastmod>
+    </url>
 </urlset>
