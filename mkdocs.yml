@@ -1,4 +1,5 @@
 # Site Configuration
+# Site Configuration
 site_name: Data Science & AI Portfolio
 site_author: Katarzyna Dudzik
 site_description: >-
@@ -11,8 +12,16 @@ site_url: https://cersei568.github.io/ds_ai_portfolio
 repo_name: cersei568/ds_ai_portfolio
 repo_url: https://github.com/cersei568/ds_ai_portfolio
 edit_uri: edit/main/docs/
+  
+site_url: https://cersei568.github.io/ds_ai_portfolio
+
+# Repository
+repo_name: cersei568/ds_ai_portfolio
+repo_url: https://github.com/cersei568/ds_ai_portfolio
+edit_uri: edit/main/docs/
 
 # Copyright
+copyright: Copyright &copy; 2025 Katarzyna Dudzik. All rights reserved.
 copyright: Copyright &copy; 2025 Katarzyna Dudzik. All rights reserved.
 
 # Configuration
@@ -22,22 +31,30 @@ theme:
   
   # Language and fonts
   language: en
+  # custom_dir: overrides  # Removed this line
+  
+  # Language and fonts
+  language: en
   
   # Color palette with elegant gradients
   palette:
+    # Light mode - Elegant professional
     # Light mode - Elegant professional
     - scheme: default
       primary: black
       accent: cyan
       toggle:
         icon: material/brightness-7
+        icon: material/brightness-7
         name: Switch to dark mode
     
+    # Dark mode - Modern tech
     # Dark mode - Modern tech
     - scheme: slate
       primary: cyan
       accent: blue
       toggle:
+        icon: material/brightness-4
         icon: material/brightness-4
         name: Switch to light mode
   
