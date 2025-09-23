@@ -98,10 +98,11 @@ nav:
     - "📊 Marketing Campaign Generator": marketing_campaign_generator
 
   - Featured Projects:
-    - "🚀 EBook AI Writer": ebook_writer/index.md
+    - "🚀 EBook Writer AI": ebook_writer/index.md
     - "🤖 AI Explorer": ai_explorer/index.md
     - "🏥 Health Risk Predictor": personalized_health_risk_predictor/index.md
     - "💰 Insurance Charge Predictor": insurance_charge_predictor/index.md
+    - "🌈 Dream Canvas Studio": dream_canvas_studio/index.md
   
   - Classic ML Studies:
     - "🌸 Iris Classification": iris/index.md
