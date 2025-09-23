@@ -93,6 +93,7 @@ theme:
 nav:
   - Home: 
     - Welcome: index.md
+  
   - Current Project:
     - "📊 Marketing Campaign Generator": marketing_campaign_generator
 
