@@ -93,17 +93,18 @@ theme:
 nav:
   - Home: 
     - Welcome: index.md
-  
-  - Current Project:
-    - "Marketing Campaign Generator": marketing_campaign_generator/index.md
 
   - Featured Projects:
+    
+    - "AudioNotes Pro": audio_notes/index.md
     - "EBook Writer AI": ebook_writer/index.md
+    - "Marketing Campaign Generator": marketing_campaign_generator/index.md
     - "AI Explorer": ai_explorer/index.md
     - "Health Risk Predictor": personalized_health_risk_predictor/index.md
     - "Insurance Charge Predictor": insurance_charge_predictor/index.md
     - "Dream Canvas Studio": dream_canvas_studio/index.md
     - "Half Marathon App": half_marathon_app/index.md
+    
   
   - Classic ML Studies:
     - "Iris Classification": iris/index.md
