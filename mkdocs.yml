@@ -95,18 +95,19 @@ nav:
     - Welcome: index.md
   
   - Current Project:
-    - "📊 Marketing Campaign Generator": marketing_campaign_generator
+    - "Marketing Campaign Generator": marketing_campaign_generator/index.md
 
   - Featured Projects:
-    - "🚀 EBook Writer AI": ebook_writer/index.md
-    - "🤖 AI Explorer": ai_explorer/index.md
-    - "🏥 Health Risk Predictor": personalized_health_risk_predictor/index.md
-    - "💰 Insurance Charge Predictor": insurance_charge_predictor/index.md
-    - "🌈 Dream Canvas Studio": dream_canvas_studio/index.md
+    - "EBook Writer AI": ebook_writer/index.md
+    - "AI Explorer": ai_explorer/index.md
+    - "Health Risk Predictor": personalized_health_risk_predictor/index.md
+    - "Insurance Charge Predictor": insurance_charge_predictor/index.md
+    - "Dream Canvas Studio": dream_canvas_studio/index.md
+    - "Half Marathon App": half_marathon_app/index.md
   
   - Classic ML Studies:
-    - "🌸 Iris Classification": iris/index.md
-    - "🚢 Titanic Survival": titanic/index.md
+    - "Iris Classification": iris/index.md
+    - "Titanic Survival": titanic/index.md
 
 # Simplified Plugins
 plugins:
