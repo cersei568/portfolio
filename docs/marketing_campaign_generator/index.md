@@ -61,8 +61,8 @@ This project demonstrates how businesses can leverage **AI + Data Science** to:
 ---
 
 ## Links  
-- 🚀 **Live Demo**: (https://marketingcampaigngeneratorv1.streamlit.app/)  
-- 📂 **GitHub Repository**: (https://github.com/cersei568/marketing_campaign_generator)
+- 🚀 **Live Demo**: [Streamlit App Deployment](https://marketingcampaigngeneratorv1.streamlit.app/)  
+- 📂 **GitHub Repository**: [Repository Link](https://github.com/cersei568/marketing_campaign_generator)
 
 ---
 
