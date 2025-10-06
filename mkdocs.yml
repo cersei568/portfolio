@@ -99,6 +99,7 @@ nav:
     - "TalentFlow - ATS": talentflow_ats/index.md
     - "Enterprise Help Desk System": enterprise_helpdesk/index.md
     - "Onboarding Assistant": onboarding_assistant/index.md
+    - "SkillSync Pro": skills_sync_pro/index.md
     - "Compliance & Training Tracker": compliance_training_tracker/index.md
     - "Interview Scheduling Optimizer": interview_scheduling_optimizer/index.md
     - "AudioNotes Pro": audio_notes/index.md
