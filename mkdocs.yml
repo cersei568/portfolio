@@ -96,6 +96,9 @@ nav:
 
   - Featured Projects:
     
+    - "TalentFlow - ATS": talentflow_ats/index.md
+    - "Onboarding Assistant": onboarding_assistant/index.md
+    - "Interview Scheduling Optimizer": interview_scheduling_optimizer/index.md
     - "AudioNotes Pro": audio_notes/index.md
     - "EBook Writer AI": ebook_writer/index.md
     - "Marketing Campaign Generator": marketing_campaign_generator/index.md
