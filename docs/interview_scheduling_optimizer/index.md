@@ -5,6 +5,10 @@
 A comprehensive, AI-powered interview scheduling and management system built with Streamlit that streamlines the hiring process with intelligent conflict detection, diversity tracking, and automated workflows.
 
 
+## 🎥 Demo
+
+🔗 **Live Demo:** [Interview Scheduling Optimizer](https://interviewscheduling.streamlit.app)
+
 ## 🚀 Features
 
 ### Core Functionality
