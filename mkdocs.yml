@@ -97,12 +97,13 @@ nav:
   - Featured Projects:
     
     - "TalentFlow - ATS": talentflow_ats/index.md
+    - "SkillSync Pro": skills_sync_pro/index.md
     - "Enterprise Help Desk System": enterprise_helpdesk/index.md
     - "Compequity - Compensation Benchmarking": compequity/index.md
+    - "CareerPath Pro": careerpath_pro/index.md
     - "Employee Offboarding Pro": employee_offboarding_pro/index.md
     - "Onboarding Assistant": onboarding_assistant/index.md
     - "RetentionIQ Pro": attrition_risk_predictor/index.md
-    - "SkillSync Pro": skills_sync_pro/index.md
     - "Compliance & Training Tracker": compliance_training_tracker/index.md
     - "Interview Scheduling Optimizer": interview_scheduling_optimizer/index.md
     - "AudioNotes Pro": audio_notes/index.md

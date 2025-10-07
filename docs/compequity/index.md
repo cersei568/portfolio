@@ -1,10 +1,5 @@
 # CompEquity - Global Compensation Benchmarking Platform
 
-![CompEquity](https://img.shields.io/badge/CompEquity-v1.0-success)
-![Python](https://img.shields.io/badge/Python-3.8+-blue)
-![Streamlit](https://img.shields.io/badge/Streamlit-1.28+-red)
-![License](https://img.shields.io/badge/License-MIT-yellow)
-
 A comprehensive compensation benchmarking and pay equity analysis platform for making data-driven salary decisions across global markets.
 
 ![Show Image](assets/c0.png)
