@@ -2,9 +2,6 @@
 
 **AI-Powered Intelligence Platform for Workforce Engagement & Well-being**
 
-[Features](#-features) • [Demo](#-demo) • [Usage](#-usage)
-</div>
-
 ![Dashboard Preview](assets/es0.png)
 
 ## 📖 Overview
@@ -103,30 +100,6 @@ Enterprise Sentiment Analytics is a comprehensive, production-ready platform des
 - **json** - JSON data serialization
 - **random** - Sample data generation
 
-### **Architecture Highlights**
-```
-┌─────────────────────────────────────┐
-│      Streamlit Web Interface        │
-├─────────────────────────────────────┤
-│   Session State Management Layer    │
-├─────────────────────────────────────┤
-│        Data Processing Layer        │
-│  ├─ Sentiment Analysis (TextBlob)   │
-│  ├─ Keyword Extraction              │
-│  ├─ Risk Scoring Algorithm          │
-│  └─ Engagement Index Calculation    │
-├─────────────────────────────────────┤
-│      Visualization Layer            │
-│  └─ Plotly Interactive Charts       │
-├─────────────────────────────────────┤
-│       Data Storage Layer            │
-│  ├─ Session State (Runtime)         │
-│  ├─ CSV/Excel Import                │
-│  └─ Export Engine                   │
-└─────────────────────────────────────┘
-```
----
-
 ## 💻 Usage
 
 ### **1. Getting Started**
@@ -205,49 +178,6 @@ Manage data and configuration:
 - Set notification preferences
 - Manage data retention
 ```
-
-### **3. Data Format Requirements**
-
-#### **Minimum Required Columns**
-```csv
-date,department,feedback_text
-2024-01-15,Engineering,"Great team collaboration"
-2024-01-16,Sales,"Need better CRM tools"
-```
-
-#### **Full Schema (Optional Columns)**
-```csv
-date,employee_id,department,location,role,channel,feedback_text,engagement_score,sentiment_score
-2024-01-15,EMP1001,Engineering,New York,Senior,Survey,"Great collaboration",85,0.75
-```
-
-### **4. Key Metrics Explained**
-
-| Metric | Description | Range | Interpretation |
-|--------|-------------|-------|----------------|
-| **Sentiment Score** | Overall emotional tone | -1.0 to 1.0 | <-0.1 Negative, >0.1 Positive |
-| **Engagement Score** | Employee involvement | 0-100% | <50% Low, >80% High |
-| **NPS Score** | Net Promoter Score | -100 to 100 | <0 Poor, >50 Excellent |
-| **Risk Score** | Attrition probability | 0-100 | <25 Low, >50 High |
-| **Engagement Index** | Composite wellness | 0-100 | Multiple factors combined |
-
----
-
-## 📈 Performance
-
-### **Benchmarks**
-| Dataset Size | Load Time | Memory Usage | Response Time |
-|--------------|-----------|--------------|---------------|
-| 500 records  | <1s       | 150MB        | <100ms        |
-| 5,000 records| <3s       | 300MB        | <200ms        |
-| 50,000 records| <10s     | 800MB        | <500ms        |
-
-### **Optimization Tips**
-- Use date filters to reduce data volume
-- Enable data sampling for very large datasets
-- Export and archive historical data regularly
-- Use categorical filters before time-series analysis
-
 ---
 
 ## 🔒 Security & Privacy
@@ -274,10 +204,5 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-<div align="center">
-
 **Made with ❤️ for better workplaces**
 
-[⬆ Back to Top](#-enterprise-sentiment-analytics-platform)
-
-</div>
