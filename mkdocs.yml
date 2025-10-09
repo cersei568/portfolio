@@ -96,8 +96,8 @@ nav:
 
   - Featured Projects:
     
-    - "TalentFlow - ATS": talentflow_ats/index.md
     - "SkillSync Pro": skills_sync_pro/index.md
+    - "TalentFlow - ATS": talentflow_ats/index.md
     - "Employee Sentiment Monitor": employee_sentiment_monitor/index.md
     - "Enterprise Help Desk System": enterprise_helpdesk/index.md
     - "Workforce 360 - External Workforce Intelligence Platform": workforce_360/index.md
@@ -119,11 +119,8 @@ nav:
     - "Code Storyteller": code_storyteller/index.md
     - "Climate AI": climate_ai/index.md
     - "Half Marathon App": half_marathon_app/index.md
-    
-  
-  - Classic ML Studies:
-    - "Iris Classification": iris/index.md
-    - "Titanic Survival": titanic/index.md
+    - "Classic ML Studies: Iris Classification": iris/index.md
+    - "Classic ML Studies: Titanic Survival": titanic/index.md
 
 # Simplified Plugins
 plugins:

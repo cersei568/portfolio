@@ -257,9 +257,3 @@ Internal use only. Proprietary software.
 ![Show Image](assets/eop4.png)
 
 ![Show Image](assets/eop5.png)
-
-
-**Version:** 2.0 Professional Edition  
-**Last Updated:** July 2023  
-**Status:** Production Ready  
-**Maintained by:** Katarzyna Dudzik# employee_offboearding_pro
