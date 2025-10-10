@@ -108,7 +108,7 @@ nav:
     - "Employee Offboarding Pro": employee_offboarding_pro/index.md
     - "Onboarding Assistant": onboarding_assistant/index.md
     - "RetentionIQ Pro": attrition_risk_predictor/index.md
-    - "Employee Benefits Platform": employee_benefits/index.md
+    - "Benefits Selection Assistant": employee_benefits/index.md
     - "Compliance & Training Tracker": compliance_training_tracker/index.md
     - "Interview Scheduling Optimizer": interview_scheduling_optimizer/index.md
     - "AudioNotes Pro": audio_notes/index.md

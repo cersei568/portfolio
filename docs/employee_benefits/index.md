@@ -1,91 +1,93 @@
-# 💼 Benefits Selection Assistant - Professional Pastel Theme
+# 💼 Benefits Selection Assistant
 
-A modern, professional employee benefits selection portal built with Streamlit, featuring a sophisticated pastel color scheme with high-contrast text for optimal readability.
+A luxury-themed, multi-language benefits enrollment system.
 
 ![Main Interface](assets/bea0.png)  
 
 👉 Try the app: **[Demo Link (Streamlit)](https://benefits.streamlit.app)**  
 👉 Explore the code: **[GitHub Repository](https://github.com/cersei568/benefits_enrollment_assistant)**  
 
+The Benefits Selection Assistant is a sophisticated web application designed to streamline the benefits enrollment process for organizations. Built with Streamlit and featuring a luxury design aesthetic, this portal provides employees with an intuitive interface to explore, compare, and select their benefits packages.
 
-## 🌟 Features
+---
 
-### Core Functionality
-- **Interactive Benefits Selection**: Choose from medical, sports, and insurance packages
-- **Employee Dashboard**: Real-time overview of selected benefits and costs
-- **Dependent Management**: Add and verify family members for coverage
-- **Cost Calculator**: Dynamic pricing based on coverage tiers
-- **Document Management**: Upload and download benefit-related documents
-- **PPK Integration**: Employee retirement savings plan configuration
+## Features
 
-### Design Highlights
-- **Professional Pastel Theme**: Soft, modern color palette with purple accents
-- **High Contrast Text**: Ensures excellent readability (WCAG compliant)
-- **Responsive Layout**: Adapts to different screen sizes
-- **Smooth Animations**: Subtle hover effects and transitions
-- **Modern UI Components**: Cards, badges, and gradient effects
+### 📊 Dashboard
+- Real-time benefits status overview
+- Selected plans summary with cost breakdowns
+- Interactive cost visualization charts
+- Budget tracking and salary percentage calculations
 
+### 📋 Plan Comparison
+- Side-by-side comparison of all available benefit plans
+- Coverage tier selection (Employee, Employee + Partner, Employee + Children, Family)
+- Detailed plan specifications and coverage details
+- Employer contribution percentage display
 
-### Benefit Plans
+### ✅ Benefits Selection
+- Intuitive radio button selection for each benefit category
+- Real-time cost calculations as you select
+- Three-metric display: Your Contribution, Employer Contribution, Net Cost
+- Confirmation workflow to prevent accidental submissions
 
-The application includes three categories of benefits:
+### 👨‍👩‍👧‍👦 Dependent Management
+- Add family members (spouse, children, partners)
+- Document verification tracking
+- Secure data storage with masked IDs
+- Edit and remove dependents functionality
 
-1. **Medical Plans** (Pakiety Medyczne)
-   - Premium: 350 PLN/month
-   - Standard: 200 PLN/month
-   - Basic: 120 PLN/month
+### 📄 Documents Center
+- Organized document categories
+- One-click download functionality
+- Policy documents, handbooks, and guides
+- Upload capability for verification documents
 
-2. **Sports Packages** (Pakiety Sportowe)
-   - Multisport Plus: 150 PLN/month
-   - Multisport Basic: 80 PLN/month
+### 📈 Analytics
+- 6-month cost projection charts
+- Benefits utilization tracking
+- Personalized optimization recommendations
+- Savings opportunity calculator
 
-3. **Life Insurance** (Ubezpieczenie)
-   - Life + Health: 100 PLN/month
+### 🌐 Multi-Language Support
+- English (en)
+- Polish (pl)
+- German (de)
+- Easy language switching in top navigation
+- Complete UI translation including all labels and messages
 
-### Coverage Tiers
+---
 
-Each benefit can be extended to cover:
-- Employee only (1.0x multiplier)
-- Employee + Partner (1.8x multiplier)
-- Employee + Children (1.6x multiplier)
-- Family (2.3x multiplier)
+## Usage
 
-## 🖥️ User Interface Sections
+### For Employees
 
-### 1. Dashboard (Pulpit)
-- Status overview cards
-- Selected benefits summary
-- Cost breakdown
-- Quick statistics
+1. **Select Language**: Choose your preferred language from the dropdown in the top-right corner
+2. **Review Dashboard**: Check your current benefits status and selections
+3. **Compare Plans**: Navigate to the Comparison tab to view all available benefit plans
+4. **Make Selections**: Go to Benefits Selection tab and choose your desired plans
+5. **Add Dependents**: If covering family members, add them in the Dependents tab
+6. **Confirm**: Review your selections and confirm to complete enrollment
 
-### 2. Comparison (Porównanie)
-- Side-by-side plan comparison
-- Dynamic pricing based on coverage
-- Detailed feature lists
-- Recommended options
+### For HR Administrators
 
-### 3. Benefits Selection (Wybór Benefitów)
-- Interactive selection forms
-- Real-time cost updates
-- PPK configuration
-- Enrollment confirmation
+1. **Customize Plans**: Edit benefit plan details in the `medical_plans`, `sport_plans`, and `insurance_plans` lists
+2. **Adjust Costs**: Modify premium amounts, deductibles, and employer contribution percentages
+3. **Update Translations**: Add or modify text in the `TRANSLATIONS` dictionary
+4. **Configure Theme**: Adjust colors and styling in the CSS section
 
-### 4. Dependents (Osoby Zależne)
-- Add family members
-- Document verification status
-- Manage dependent information
+---
 
-### 5. Documents (Dokumenty)
-- Download plan documents
-- Upload verification files
-- Document categories
+## Security Considerations
 
-## 🛡️ Security Considerations
+- **Data Encryption**: Implement encryption for sensitive employee data
+- **Authentication**: Add user authentication (e.g., OAuth, SAML)
+- **Session Management**: Secure session state management
+- **HTTPS**: Always use HTTPS in production
+- **Input Validation**: Validate all user inputs
+- **Rate Limiting**: Implement rate limiting for API endpoints
 
-- **Session State**: All user data is stored in Streamlit's session state
-- **No Database**: Current version uses in-memory storage
-- **Input Validation**: Basic validation for form inputs
-- **PESEL Protection**: Only last 4 digits displayed
+---
 
 ## 📄 License
 
